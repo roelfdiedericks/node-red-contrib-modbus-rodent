@@ -1,5 +1,5 @@
 {
-  "name": "node-red-contrib-modbus-rodent",
+  "name": "node-red-contrib-modbus",
   "version": "5.30.0",
   "private": false,
   "description": "The all in one Modbus TCP and Serial contribution long term supported package for Node-RED.",
@@ -87,7 +87,7 @@
     "rewrite-changelog": "gulp changelog",
     "clean": "gulp clean",
     "dev-link": "npm i && npm run build && npm link",
-    "dev-unlink": "npm unlink node-red-contrib-modbus-rodent -g",
+    "dev-unlink": "npm unlink node-red-contrib-modbus -g",
     "dev-link-local": "npm run build && npm link"
   },
   "devDependencies": {
